@@ -9,3 +9,9 @@ function addTwoNumbers(num1, num2) {
 console.log(addTwoNumbers(2, 2));
 var addTwoNumbersResult = addTwoNumbers(2,2);
 console.log("addTwoNumbers Exercise:", addTwoNumbersResult);
+function convertHoursToMinutes(number) {
+  return number * 60;
+}
+console.log(convertHoursToMinutes(2));
+var convertHoursToMinutesResult = convertHoursToMinutes(2);
+console.log("convertHoursToMinutes Exercise:", convertHoursToMinutesResult);
