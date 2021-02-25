@@ -15,3 +15,10 @@ function convertHoursToMinutes(number) {
 console.log(convertHoursToMinutes(2));
 var convertHoursToMinutesResult = convertHoursToMinutes(2);
 console.log("convertHoursToMinutes Exercise:", convertHoursToMinutesResult);
+
+function personalizeGreeting(name) {
+  return 'Hello' +" "+ name + '!';
+}
+console.log(personalizeGreeting('World'));
+var personalizeGreetingResult = personalizeGreeting('World');
+console.log("personaliseGreeting Exercise:", personalizeGreetingResult);
